@@ -1,4 +1,6 @@
-const tracer = require("dd-trace").init();
+const tracer = require("dd-trace").init({
+  "env": "dev-1"
+});
 
 const express = require("express");
 const app = express();
