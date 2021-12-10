@@ -17,6 +17,6 @@ docker run -d -v /var/run/docker.sock:/var/run/docker.sock:ro \
 
 Once the reporting agent is up, run the following two services:
 ```
-node node-1\index.js
-node node-2\index.js
+node node-1/index.js
+node node-2/index.js
 ```
